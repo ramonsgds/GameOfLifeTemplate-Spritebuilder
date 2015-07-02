@@ -153,7 +153,7 @@ static const int GRID_COLUMNS = 10;
             Creature *currentCreature = _gridArray[i][j];
             currentCreature.livingNeighbors = 0;
             
-            [self countNeighbors];
+            //[self countNeighbors];
             
             if ( currentCreature.livingNeighbors == 3)
             {
