@@ -148,10 +148,10 @@ static const int GRID_COLUMNS = 10;
     
 - (BOOL)isIndexValidForX:(int)x andY:(int)y
     {
-        BOOL isIndexValid = YES;
+        BOOL isIndexValid = true;
         if(x < 0 || y < 0 || x >= GRID_ROWS || y >= GRID_COLUMNS)
         {
-            isIndexValid = NO;
+            isIndexValid = false;
         }
         return isIndexValid;
     }
