@@ -156,7 +156,7 @@ static const int GRID_COLUMNS = 10;
             [self countNeighbors];
             
             if ( currentCreature.livingNeighbors == 3)
-        
+            {
                 currentCreature.isAlive = true;
             }
             
