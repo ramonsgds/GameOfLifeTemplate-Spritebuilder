@@ -151,7 +151,7 @@ static const int GRID_COLUMNS = 10;
         for (int j = 0; j < [_gridArray[i] count]; j++)
         {
             Creature *currentCreature = _gridArray[i][j];
-            currentCreature.livingNeighbors = 0;
+           // currentCreature.livingNeighbors = 0;
             
             [self countNeighbors];
             
